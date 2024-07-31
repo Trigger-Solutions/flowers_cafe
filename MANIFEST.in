@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include flowers_cafe *.css
+recursive-include flowers_cafe *.csv
+recursive-include flowers_cafe *.html
+recursive-include flowers_cafe *.ico
+recursive-include flowers_cafe *.js
+recursive-include flowers_cafe *.json
+recursive-include flowers_cafe *.md
+recursive-include flowers_cafe *.png
+recursive-include flowers_cafe *.py
+recursive-include flowers_cafe *.svg
+recursive-include flowers_cafe *.txt
+recursive-exclude flowers_cafe *.pyc
